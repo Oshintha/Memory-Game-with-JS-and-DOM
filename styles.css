@@ -1,0 +1,47 @@
+
+/* reset defalt styling*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+}
+
+/* styles for the game board */
+#board{
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr 0fr 0fr;
+    gap: 5px;
+    align-items: center;
+    margin-left: 31%;
+}
+
+/* styles for heading */
+h1{
+    padding: 30px;
+    margin-left: 34%;
+    color: #d31919;
+}
+
+/* Styles for the replay button */
+#replayButton {
+    position: fixed;
+    bottom: 20px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #af784c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styles for the replay button on hover */
+#replayButton:hover {
+    background-color: #45a049;
+}
